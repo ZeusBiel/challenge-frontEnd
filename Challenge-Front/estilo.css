@@ -12,7 +12,7 @@ header{
     border-radius: 8px 8px 0px 0px;
 }
 
-#perfilVinharia{
+#perfilPrincipal{
     position: absolute;
     top: 15px;
     left: 15px;
@@ -267,5 +267,58 @@ footer div a img:hover{
 }
 .servicosUl li{
     font-family: "descri", sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
 }
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* adicionado */
+    text-align: center;
+    margin: 0 auto; /* adicionado */
+    width: 70%; /* alterado */
+    max-width: 698px; /* adicionado */
+    height: 790px;
+    background: rgb(255, 250, 250);
+    border-radius: 10px;
+    border-color: #d1c6c6;
+    border-width: 10px;
+    margin-bottom: 50px;
+    left: 15%;
+  }
+  
+  form h1 {
+    margin-bottom: 20px;
+  }
+  
+  form p {
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  form label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  form textarea {
+    height: 120px;
+    resize: none;
+  }
+  
+  form input[type="submit"] {
+    width: auto;
+    padding: 8px 20px;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
